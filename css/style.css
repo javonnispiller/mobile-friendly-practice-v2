@@ -3,24 +3,3 @@
     padding:0;
     box-sizing:border-box;
 }
-:root{
-    --width:100%;
-}
-.holder{
-    overflow:hidden;
-    position:relative;
-    width: var(100%);
-    height:50px;
-}
-.ellipse{
-    position:absolute;
-    background: linear-gradient(#8EC5FC #E0C3FC);
-    background: radial-gradient(ellipse, transparent, transparent 7px, black 7px, black 10px, transparent 11px);
-    width: var(100%);
-    height:20px;
-}
-.ellipse2{
-    top:20px;
-    left:18px;
-    background-position: 0px -20px;
-}
